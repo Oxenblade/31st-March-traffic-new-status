@@ -83,7 +83,7 @@ with open (filename, "r" ) as traffic:
 
     b = [ k - x for x in intinger_convertion]
 
-    result = ' '.join(b)
+    #result = ' '.join(rain_list)
 
     #rain_hour_calculation = 
 
@@ -121,7 +121,7 @@ print(percentage_value_of_scooters)
 
 print(max(Total_Vehicle_list))
 
-print(result)
+print(b)
 
 
 
